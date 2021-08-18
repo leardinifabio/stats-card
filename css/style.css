@@ -2,11 +2,13 @@ body {
     background-color: hsl(233, 47%, 7%);
     font-size: 15px;
     color: hsl(0, 0%, 100%);
+    margin: 0;
 }
 
 main {
-    width: 375px;
-    margin: 10% auto;
+    /* position: relative; */
+    width: auto;
+    margin: 5% 5%;
 }
 
 .main-image {
@@ -20,7 +22,7 @@ main {
 }
 
 .main-image img {
-    width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 20px 20px 0 0;
 }
@@ -28,9 +30,47 @@ main {
 .capa {
     background: rgba(162, 0, 255, 0.3);
     line-height: 0;
-    width: 90%;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     border-radius: 20px 20px 0 0;
+}
+
+.card-description {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 0 0 20px 20px;
+    width: auto;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    padding: 1em 0.8em;
+}
+
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    padding: 0 2em 1.5em 2em;
+    line-height: 1.5em;
+}
+
+h2 {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 0.8em;
+}
+
+h2 span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    margin: 0.5em;
+
 }
