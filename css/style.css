@@ -85,8 +85,83 @@ h2 span {
     margin: 0.5em;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 .attribution {
-    line-height: 1.5em;
     font-size: 0.8em;
-    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+
+    main {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-description {
+        padding: 0 3em 2em 3em;
+        width: 30%;
+        height: auto;
+        order: 1;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .main-image {
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        order: 2;
+    }
+
+    .main-image img {
+        border-radius: 0 10px 10px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .capa {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .statistics-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    h1 {
+        padding: 1em 0 1em 0;
+        font-size: 1.3em;
+        text-align: left;
+    }
+
+    p {
+        padding: 0;
+        font-size: 0.6em;
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 0.9em;
+        padding: 2em 2em 0 0;
+        display: inline-block;
+    }
+
+    h2 span {
+        margin: 0;
+    }
+
+    .attribution {
+        line-height: 1.5em;
+        font-size: 0.5em;
+        text-align: center;
+    }
 }
