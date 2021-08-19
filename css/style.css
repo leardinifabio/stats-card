@@ -107,14 +107,14 @@ footer {
 
     .card-description {
         padding: 0 3em 2em 3em;
-        width: 30%;
+        width: 40%;
         height: auto;
         order: 1;
         border-radius: 10px 0 0 10px;
     }
 
     .main-image {
-        width: 40%;
+        width: 45%;
         height: auto;
         display: inline-block;
         order: 2;
