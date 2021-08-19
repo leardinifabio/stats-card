@@ -93,10 +93,10 @@ footer {
     font-size: 0.8em;
 }
 
-@media (min-width: 800px) and (max-width: 1100px) {
+@media (min-width: 800px) and (max-width: 950px) {
 
     main {
-        margin: 2em auto;
+        margin: 10em 0 1em 0;
         width: auto;
         height: auto;
         display: flex;
@@ -105,9 +105,19 @@ footer {
         justify-content: center;
     }
 
+    .main-description {
+        background-color: hsl(244, 38%, 16%);
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+    }
+
     .card-description {
         padding: 0;
-        width: 48%;
+        width: auto;
         height: auto;
         order: 1;
         border-radius: 10px 0 0 10px;
@@ -118,7 +128,185 @@ footer {
     }
 
     .main-image {
-        width: 48%;
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        order: 2;
+    }
+
+    .main-image img {
+        border-radius: 0 10px 10px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .capa {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .statistics-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    h1 {
+        padding: 0 0 1em 0;
+        font-size: 1.2em;
+        text-align: left;
+        margin: 0;
+    }
+
+    p {
+        padding: 0;
+        font-size: 0.6em;
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 0.8em;
+        padding: 2em 2em 0 0;
+        display: inline-block;
+    }
+
+    h2 span {
+        margin: 0;
+    }
+
+    .attribution {
+        line-height: 1.5em;
+        font-size: 0.5em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1250px) {
+
+    main {
+        margin: 10em 0 1em 0;
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-description {
+        background-color: hsl(244, 38%, 16%);
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card-description {
+        padding: 0;
+        width: auto;
+        height: auto;
+        order: 1;
+    }
+
+    .description-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2em 3em 2em 3em;
+    }
+
+    .main-image {
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        order: 2;
+    }
+
+    .main-image img {
+        border-radius: 0 10px 10px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .capa {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .statistics-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    h1 {
+        padding: 0 0 1em 0;
+        font-size: 1.4em;
+        text-align: left;
+        margin: 0;
+    }
+
+    p {
+        padding: 0;
+        font-size: 0.7em;
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 1em;
+        padding: 2em 2em 0 0;
+        display: inline-block;
+    }
+
+    h2 span {
+        margin: 0;
+    }
+
+    .attribution {
+        line-height: 1.5em;
+        font-size: 0.8em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1251px) {
+
+    main {
+        margin: 10em 0 1em 0;
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-description {
+        background-color: hsl(244, 38%, 16%);
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card-description {
+        padding: 0;
+        width: auto;
+        height: auto;
+        order: 1;
+    }
+
+    .description-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin: 2em 3em 2em 3em;
+    }
+
+    .main-image {
+        width: 30%;
         height: auto;
         display: inline-block;
         order: 2;
@@ -144,6 +332,7 @@ footer {
         padding: 0 0 1em 0;
         font-size: 1.5em;
         text-align: left;
+        margin: 0;
     }
 
     p {
@@ -154,86 +343,7 @@ footer {
 
     h2 {
         text-align: left;
-        font-size: 1.3em;
-        padding: 2em 2em 0 0;
-        display: inline-block;
-    }
-
-    h2 span {
-        margin: 0;
-    }
-
-    .attribution {
-        line-height: 1.5em;
-        font-size: 0.5em;
-        text-align: center;
-    }
-}
-
-@media (min-width: 1101px) and (max-width: 1400px) {
-
-    main {
-        margin: 10em auto;
-        width: auto;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .card-description {
-        padding: 0;
-        width: 48%;
-        height: auto;
-        order: 1;
-        border-radius: 10px 0 0 10px;
-    }
-
-    .description-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 2em 3em 2em 3em;
-    }
-
-    .main-image {
-        width: 48%;
-        height: auto;
-        display: inline-block;
-        order: 2;
-    }
-
-    .main-image img {
-        border-radius: 0 10px 10px 0;
-        width: 100%;
-        height: auto;
-    }
-
-    .capa {
-        border-radius: 0 10px 10px 0;
-    }
-
-    .statistics-text {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: left;
-    }
-
-    h1 {
-        padding: 0 0 1em 0;
-        font-size: 2em;
-        text-align: left;
-    }
-
-    p {
-        padding: 0;
-        font-size: 1.1em;
-        text-align: left;
-    }
-
-    h2 {
-        text-align: left;
-        font-size: 1.7em;
+        font-size: 1.2em;
         padding: 2em 2em 0 0;
         display: inline-block;
     }
